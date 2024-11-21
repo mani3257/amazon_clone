@@ -1,0 +1,268 @@
+*{  
+    margin:0px;
+    border:border-box;
+    font-family: Arial;
+    
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color:white;
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.amaz-logo{
+    height:60px;
+    width:100px;
+
+}
+.logo{   
+    height:50px;
+    width:100px;
+    
+    background-image:url("amazon_logo1.jpeg");
+    background-size:cover;
+}
+.border{
+    border:1px solid transparent;
+    
+}
+.border:hover{
+    border:1.4px solid white;
+    transform: scale(1.1);
+}
+
+.top{
+    position:relative;
+    top:4px;
+}
+.add1{
+    color:#cccccc;
+    font-size: 0.7rem;
+    margin-left:15px;
+    text-decoration: none;
+}
+.add{
+    
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+}
+.loc{
+    display: flex;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.add2{
+    font-weight: 3rem;
+    margin-left:4px;
+    text-decoration: none;
+}
+.search{
+    height: 40px;
+    width:620px;
+    background-color: rgb(234, 172, 57);
+    display: flex;
+    border-radius:3px ;
+}
+.search:active{
+    border: 3px solid rgb(225, 161, 42);
+}
+.search-all{
+    width:50px;
+    text-align: center;
+    background-color: aliceblue;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+    color:black;
+
+}
+.search-all:focus{
+    border: 3px solid rgb(223, 164, 56);
+}
+.option-all{
+    font-family: 'Courier New', Courier, monospace;
+    width:40%;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+    text-decoration: none;
+}
+.search-input:focus{
+    border: 2px solid rgb(191, 143, 55);
+}
+.search-len{
+    width: 60px;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-logo{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.search-len:focus{
+    border: 2px solid rgb(184, 141, 60);
+}
+
+.nation {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+    
+.flag-image{
+    height: 16px;
+    width:25px;
+    background-image: url("india.jpeg");
+    background-size: cover;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 2px;
+}
+.in{
+    height:16px;
+    width:18px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 2px;
+    font-size: 14px;
+}
+.flag-country {
+    height: 8px;
+    width: 4px;
+    display: flex;
+    align-self: center;
+    border:none;
+    border:border-box;
+}
+.flag-country i{
+    font-size: 15px;
+    position: relative;
+    top:5px;
+}
+
+.cart{
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.cart-logo i{
+    font-size: 30px;
+}
+.panel{
+    display: flex;
+    align-items: center;
+    height:40px;
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    color: white;
+}
+.panel-option{
+    display:flex;
+    width: 70%;
+    height:90%;
+    font-size: 0.8rem;
+    align-items: center;
+    
+}
+
+option{
+    margin-left: 10px;
+}
+.panel-all i{
+    font-size: 15px;
+}
+.panel-all:focus{
+    border: 2px solid black;
+}
+
+option:hover{
+    border:1.4px solid white;
+}
+.panel-deals{
+    width: 70x;
+    height: 90%;
+    font-weight: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel-deals:hover{
+    transform: scale(1.02);
+
+}
+.hero-page{
+    height:500px;
+    width:100%;
+    background-image: url("amzon_front_page.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+hero1{
+    height:300px;
+    width:250px;
+    background-image: url('hero1.jpg');
+    background-size: cover;
+    
+}
+.hero2{
+    height:200px;
+    width:150px;
+    background-image: url('hero2.jpg');
+    background-size: cover;
+}
+.hero3{
+    height:200px;
+    width:150px;
+    background-image: url('hero3.jpg');
+    background-size: cover;
+}
+.hero9{
+    height:200px;
+    width:150px;
+    background-image: url('hero9.jpg');
+    background-size: cover;
+}
+.hero4{
+    background-image: url("hero5.jpg");
+    background-size: cover;
+}
+.hero2,.hero3,.hero9,.hero4{
+    height:320px;
+    width:300px;
+    
+    align-self: flex-end;
+    
+
+}
+.hero4:hover{border:1.2px solid black ;
+    /* Safari 3-8 */
+  transform: scale(1.08);
+}
+.hero2:hover{border:1.2px solid black;
+    transform: scale(1.08);
+}
+.hero3:hover{border:1.2px solid black;
+    transform: scale(1.08);}
+.hero9:hover{border:1.2px solid black;
+    transform: scale(1.08);}
+
+
