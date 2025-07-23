@@ -265,4 +265,6 @@ hero1{
 .hero9:hover{border:1.2px solid black;
     transform: scale(1.08);}
 
-
+.navbar,.panel:hover{
+    cursor: pointer;
+}
